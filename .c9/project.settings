@@ -1,0 +1,83 @@
+{
+    "build": {
+        "@saveall": true
+    },
+    "format": {
+        "jsbeautify": {
+            "@braces": "collapse",
+            "@formatOnSave": false,
+            "@indent_inner_html": true
+        }
+    },
+    "general": {
+        "@stripws": false
+    },
+    "instance": {
+        "@automaticShutdown": "60"
+    },
+    "javascript": {
+        "@formatOnSave": true,
+        "@use_jsbeautify": true
+    },
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "accounting": {
+                    "enabled": true
+                },
+                "ace": {
+                    "enabled": true
+                },
+                "add2home": {
+                    "enabled": true
+                },
+                "alertify": {
+                    "enabled": true
+                },
+                "amcharts": {
+                    "enabled": true
+                },
+                "angularfire": {
+                    "enabled": true
+                },
+                "appframework": {
+                    "enabled": true
+                },
+                "appletvjs": {
+                    "enabled": true
+                },
+                "applicationinsights": {
+                    "enabled": true
+                },
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "php": {
+        "@formatOnSave": true
+    },
+    "python": {
+        "@formatOnSave": false
+    },
+    "run": {
+        "@runner": "PHP (cli)",
+        "configs": {
+            "@inited": "true",
+            "json()": {}
+        }
+    },
+    "typescript": {
+        "@formatOnSave": true
+    },
+    "welcome": {
+        "@first": true
+    }
+}
